@@ -65,18 +65,16 @@ public class DisplayStudent {
          		}else {
          			System.out.println("Wrong roll");
          		}
-         		
-         		
-         		}
+   
+         	}
 
- 			}
-             else 
- 				flag=false;
+ 		}else 
+ 		   flag=false;
  			}
 		}
 		 
 		 catch(InputMismatchException ex) {
-			 System.out.println("Try again...Incorrect input");
+			 System.out.println("Incorrect input!!! Try Again..");
 			 input.nextLine();
 		 }
 		 
@@ -85,4 +83,5 @@ public class DisplayStudent {
 		
 	}
 }
+
 
